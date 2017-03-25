@@ -1,0 +1,21 @@
+.section-highlight {
+	padding: 1em;
+	margin: 4.66667rem 0;
+	h2 {
+	    margin-top: 0;
+	}
+}
+
+.section-border {
+	border: 10px solid #333339;
+}
+
+.section-bg {
+	background-color: $gray-lighter;
+	h2 {	
+		padding-top: 1em;
+	}
+	/*ul {
+		padding-bottom: 2em;
+	}*/
+}

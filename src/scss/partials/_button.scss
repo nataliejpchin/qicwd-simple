@@ -1,0 +1,31 @@
+.btn {
+    font-family: $font-family-sans-serif;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    padding: 0.7em 1.2em;
+    background: $brand-primary;
+    white-space: normal;
+    text-decoration: none;
+    
+    &:hover {
+        background-color: darken($brand-primary, 5%);
+        opacity: 1;
+    }
+    &:focus {
+        outline: thin dotted darken($brand-primary, 10%);
+    }
+    &:active {
+        background-color: darken($brand-primary, 10%);
+    }
+}
+
+
+a {
+    &:hover {
+        color: darken($brand-primary, 5%);
+    }
+    &:focus,
+    &:active {
+        color: darken($brand-primary, 10%);
+    }
+}

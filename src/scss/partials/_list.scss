@@ -1,0 +1,8 @@
+.list-multicolumn {
+	columns: 2 200px;
+	column-gap: 4em;
+
+	li:first-child {
+		margin-bottom: 2em;
+	}
+}
