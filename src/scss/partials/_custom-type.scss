@@ -5,7 +5,11 @@ body {
 }
 
 p:last-child {
-    padding-bottom: 2em;    
+    padding-bottom: 2em; 
+
+    .well & {
+        padding-bottom: 0;
+    }   
 }
 
 *+p,p+* {
