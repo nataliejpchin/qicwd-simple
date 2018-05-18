@@ -1,22 +1,27 @@
 header {
-	padding-left: 1em;
-    padding-right: 1em;
+    border-bottom: 1px solid;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4.5rem;
+
     @media screen and (min-width: 60em) {
-        padding:0 calc(50% - 400px);
+        margin: 4.5rem calc(50% - 400px);
     }
+
     @media screen and (min-width: 90.625em) {
-        padding:0 calc(50% - 20em);
+        margin: 4.5rem calc(50% - 20em);
     }
 }
 
 .site-branding {
-    border-bottom: 1px solid;
+    
 	a {
-		max-width: 100%;
-	    width: 24.5rem;
-	    height: 100%;
+		//max-width: 100%;
+	    //width: 24.5rem;
+	    //height: 100%;
 	    display: inline-block;
-	    margin-top: 3em;
 	}
 }
 
@@ -24,4 +29,24 @@ header {
 	max-width: 100%;
 	width: 17.5rem;;
     height: 3rem;
+    padding-right: 2em;
+}
+
+.nav__wrapper {
+	> ul {
+	    list-style-type: none;
+	    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+	    padding-left: 0;
+
+	    > li {
+	    	text-align: center;
+
+	    	> a {
+	    		font-size: 0.7rem;
+	    		padding: 0.5rem 0.7rem;
+	    		text-decoration: none;
+
+	    	}
+	    }
+	}
 }

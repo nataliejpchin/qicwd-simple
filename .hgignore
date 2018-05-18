@@ -1,0 +1,10 @@
+syntax: glob
+_grunt/.DS_Store
+.orig
+node_modules/
+^node_modules/
+node_module/**
+sftp-config.json
+
+syntax: regexp
+.*\#.*\#$
